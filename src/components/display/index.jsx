@@ -17,7 +17,7 @@ class Display extends Component {
       { name: "Burger", itemImage: image2 },
       { name: "Itli", itemImage: image3 },
       { name: "Dosa", itemImage: image4 },
-      { name: "Sambhar Dosa", itemImage: image5 },
+      { name: "pavbaji", itemImage: image5 },
       { name: "Chicken Burger Chinese", itemImage: image6 }
     ],
     searchKeyWord: '',
