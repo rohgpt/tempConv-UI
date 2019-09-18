@@ -1,0 +1,57 @@
+.root{
+  width: 100%;
+  height:100vh;
+  background-color:blanchedalmond;
+}
+.search-contain{
+ 
+  width: 60%;
+  height:50px;
+  background-color: lightcyan;
+  font-size: 50px;  
+}
+.searchcontain{
+  background-color:indianred;
+  margin-top: 50px;
+  width: 100%;
+  height:60px;
+  display: flex;
+  justify-content: center;
+  align-items: center
+ 
+ 
+}
+
+.content{
+  background-color:darkgreen;
+  width: 100%;
+  height:80%;
+  display: flex;
+  justify-content: center;
+  align-items: center
+
+}
+.card{
+  width: 100%;
+  height: 80%;
+  border:2px white solid;
+  background-color:maroon;
+  display: flex;
+  justify-content: center;
+  align-items: center
+
+
+}
+.text{
+  margin-top:220px;
+  font-size: 20px;
+  font-weight: bold;
+  color:white;
+
+}
+.img{
+  width: 60%;
+  height: 40%;
+  border-radius: 50%;
+  
+}

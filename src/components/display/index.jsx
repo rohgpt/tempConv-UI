@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import DisplayProductList from './product'
 import Search from './search'
-
+import './display.css'
 import image1 from '../images/images (1).jpg'
 import image2 from '../images/images (2).jpg'
 import image3 from '../images/images (3).jpg'
@@ -30,9 +30,10 @@ class Display extends Component {
     const filteredItems = searchKeyWord ? items.filter(item => item.name.toLowerCase().includes(searchKeyWord.toLowerCase())) : items;
 
     return (
-      <div>
-        <Search onSearch={this.handleSearch} />
-        <DisplayProductList items={filteredItems} />
+      <div className="root">
+        <div className="searchcontain">
+          <Search onSearch={this.handleSearch} /></div>
+        <div className="content"><DisplayProductList items={filteredItems} /></div>
       </div>
     )
   }
